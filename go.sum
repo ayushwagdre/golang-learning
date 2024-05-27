@@ -4,3 +4,5 @@ github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
 github.com/tuvistavie/securerandom v0.0.0-20140719024926-15512123a948 h1:yL0l/u242MzDP6D0B5vGC+wxm5WRY+alQZy+dJk3bFI=
 github.com/tuvistavie/securerandom v0.0.0-20140719024926-15512123a948/go.mod h1:a06d/M1pxWi51qiSrfGMHaEydtuXT06nha8N2aNQuXk=
+golang.org/x/crypto v0.23.0 h1:dIJU/v2J8Mdglj/8rJ6UUOM3Zc9zLZxVZwwxMooUSAI=
+golang.org/x/crypto v0.23.0/go.mod h1:CKFgDieR+mRhux2Lsu27y0fO304Db0wZe70UKqHu0v8=

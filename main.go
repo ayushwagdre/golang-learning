@@ -1,9 +1,8 @@
 package main
 
 import (
+	password_learning "ayush/password"
 	"fmt"
-
-	hmac_learning "ayush/hmac"
 )
 
 func main() {
@@ -18,6 +17,7 @@ func main() {
 	//generic_learning.GenericLearning()
 	//goroutine_learning.GoroutineInit()
 	//channel_learn.InitSelect()
-	hmac_learning.InternalAuthenticationInit()
+	//hmac_learning.InternalAuthenticationInit()
+	password_learning.PasswordStorageInit()
 
 }
