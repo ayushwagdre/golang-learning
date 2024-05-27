@@ -1,0 +1,20 @@
+// go vet ./...
+// go fmt ./...
+// go delve
+// golint
+// mockgen
+//%T - type of variable
+//%v - value of variable
+
+// var first map[string]interface{} -- declares a nil map and requires initialization before you can use it.
+// first1 := make(map[string]interface{}, 0) -- initializes an empty map with an explicitly specified initial capacity of 0, which can be useful if you have a specific use case for maps with expected small sizes.
+
+// first2 := map[string]interface{}{} -- 	create empty maps with no initial memory allocation. Memory is allocated dynamically as you add elements.
+
+// first3 := make(map[string]interface{}) -create empty maps with no initial memory allocation. Memory is allocated dynamically as you add elements.
+
+// closure :-A closure is a function value that references variables from its surrounding lexical scope
+// When a function is defined within another function, it forms a closure.
+// The inner function has access to the variables of the outer (enclosing) function, even after the outer function has finished execution. The inner function "closes over" these variables.
+
+
