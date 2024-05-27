@@ -1,8 +1,9 @@
 package main
 
 import (
-	channel_learn "ayush/channel"
 	"fmt"
+
+	hmac_learning "ayush/hmac"
 )
 
 func main() {
@@ -16,6 +17,7 @@ func main() {
 	//channel_learn.Deadlock2Resolve()
 	//generic_learning.GenericLearning()
 	//goroutine_learning.GoroutineInit()
-	channel_learn.InitSelect()
+	//channel_learn.InitSelect()
+	hmac_learning.InternalAuthenticationInit()
 
 }
